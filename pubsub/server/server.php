@@ -3,7 +3,10 @@
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 require __DIR__.'/../vendor/autoload.php';
 
-// https://c-mh.fr/posts/websockets-en-php-plus-simple-qu-il-n-y-parait
+/**
+ * From:
+ * https://c-mh.fr/posts/websockets-en-php-plus-simple-qu-il-n-y-parait
+ */
 
 use Ratchet\Server\IoServer;
 use Ratchet\Http\HttpServer;

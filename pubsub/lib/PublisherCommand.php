@@ -16,7 +16,7 @@ class PublisherCommand extends Command
     protected function configure()
     {
         $this->setName('publisher')
-             ->setDescription('launch the client');
+             ->setDescription('Publish a message to a channel');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int

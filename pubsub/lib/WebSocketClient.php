@@ -2,6 +2,11 @@
 
 namespace Lib;
 
+/** 
+ *  This class is mostly generated with AI, and should be refactored for a proper usage.
+ * 
+ */
+
 /**
  * A pure PHP WebSocket client class.
  * This class handles the WebSocket handshake, message framing,

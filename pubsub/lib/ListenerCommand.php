@@ -15,7 +15,7 @@ class ListenerCommand extends Command
     protected function configure()
     {
         $this->setName('listener')
-             ->setDescription('launch the client');
+             ->setDescription('Listen a list of channels');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
