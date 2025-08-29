@@ -15,3 +15,4 @@ Terminal 1:
 Terminal 2:
 - type "make publish"
 
+![Example](example.png)
