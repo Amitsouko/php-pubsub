@@ -1,0 +1,12 @@
+{
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "symfony/console": "^7.3",
+        "textalk/websocket": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib"
+        }
+    }
+}
