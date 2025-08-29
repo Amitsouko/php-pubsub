@@ -33,6 +33,8 @@ class PublisherCommand extends Command
         $client->sendToChannel($channelName, $message);
         $client->close();
 
+        $output->writeln('<info>Message sent to the channel</info> ' . $channelName);
+
         return Command::SUCCESS;
     }
 }
